@@ -1,0 +1,23 @@
+{
+  "name": "urlShortner",
+  "version": "1.0.0",
+  "description": "Shortens URLs. Uses MongoDB to store urls. Redis to track url usage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwbutler/urlShortner.git"
+  },
+  "author": "Christopher W. Butler <cbutler.msstate@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwbutler/urlShortner/issues"
+  },
+  "homepage": "https://github.com/cwbutler/urlShortner",
+  "dependencies": {
+    "express": "^4.12.2",
+    "mongoose": "^3.8.24",
+    "mongoose-url-shortener": "^1.0.1"  }
+}
